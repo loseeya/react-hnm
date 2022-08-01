@@ -1,0 +1,9 @@
+input:focus {
+	outline: none;
+}
+
+.loginForm {
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 4em;
+}
