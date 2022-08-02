@@ -9,7 +9,7 @@ function ProductDetail() {
 
 	const { id } = useParams();
 	const getProductDetail = async () => {
-		const url = `h https://my-json-server.typicode.com/loseeya/react-hnm/products/${id}`;
+		const url = `https://my-json-server.typicode.com/loseeya/react-hnm/products/${id}`;
 		const response = await fetch(url);
 		const data = await response.json();
 		setProduct(data);
