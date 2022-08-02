@@ -93,6 +93,7 @@
 		background-color: transparent;
 		margin-left: 1.2em;
 		padding-top: 1em;
+		color: #000;
 	}
 
 	.closeBtn {
@@ -103,6 +104,7 @@
 		background-color: #fff;
 		font-size: 20px;
 		margin-left: 1em;
+		color: #000;
 	}
 
 	.sideMenuList {
@@ -119,6 +121,7 @@
 		border: none;
 		background-color: transparent;
 		transition: all 300ms ease-in-out;
+		color: #000;
 	}
 
 	.sideMenuList button:hover {
